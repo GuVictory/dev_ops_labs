@@ -52,15 +52,16 @@ initial setup wizard. Choose NONE for "recommended plugins".
 * Unit testing best practices in PYTHON.md
 * Unit testing section in README.md
 * Github actions CI should be present and should work
-* Github actions CI should be properly organized. (stages are present, logical structure is correct)
+* Github actions CI should be properly organized. (build, test, push stages are present, logical structure is correct)
 * Caching is present in GitHub actions
 * CI.md exist and contains best practices for GitHub actions (more is better)
+* The workﬂow status badge is present.
 * Jenkinsfile exists
 * Jenkinsfile is properly organized
 * CI.md contains best practices for Jenkins (more is better)
 * CI.md contains result screenshots for Jenkins
 
-
+> Some additional points will be provided for implementation of best practices that you find during research and that are not mentioned in this document.
 
 ## Bonus
 
