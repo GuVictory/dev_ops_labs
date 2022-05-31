@@ -10,12 +10,12 @@
 > https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html
 
 2. Create a `terraform` folder for your workspaces.
-3. Create a workspace for a Virtualbox provider for Terraform.
+3. Create a workspace for a vagrant provider for Terraform (required for convenient work with Virtualbox)`.
 * Install Virtualbox
 * Create a workspace.
-* Prepare .tf ﬁles with 3 VMs.
+* Prepare .tf ﬁles and Vagrantfile with 3 VMs for virtualbox.
 * Use terraform fmt, terraform validate.
-* Create a VMs.
+* Create VMs.
 
 4. Use the Github provider for Terraform.
 * Create a workspace for your Github project.
@@ -35,6 +35,7 @@
 * `terraform` folder with two workspaces is present
 * TF.md file is present and contains best practices for terraform
 * The workspace with Virtualbox configuration is present
+* Vagrantfile is present and used in terraform
 * Screenshot with 3 VMs in TF.md
 * The workspace with GitHub repository configuration is present
 * Your repository is imported to terraform and configurations are applied
