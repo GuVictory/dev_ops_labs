@@ -19,7 +19,23 @@
 * Update a README.md ﬁle.
 * Add a workﬂow status badge.
 
-3. Set up Jenkins CI
+
+### List of requirements
+
+* Unit tests for your application
+* Unit testing best practices in PYTHON.md
+* Unit testing section in README.md
+* Github actions CI should be present and should work
+* Github actions CI should be properly organized. (build, test, push stages are present, logical structure is correct)
+* Caching is present in GitHub actions
+* CI.md exist and contains best practices for GitHub actions (more is better)
+* The workﬂow status badge is present.
+
+> Some additional points will be provided for implementation of best practices that you find during research and that are not mentioned in this document.
+
+## Bonus
+
+1. Set up Jenkins CI for your main app
 
 * Read about best practices.
 * Update the CI.md about speciﬁc Jenkins related practices.
@@ -45,25 +61,5 @@ initial setup wizard. Choose NONE for "recommended plugins".
 ![Jenkins status](./screenshots/jenkins-status.jpg) 
 
 * Test it. Provide results as screenshots in CI.md
-
-### List of requirements
-
-* Unit tests for your application
-* Unit testing best practices in PYTHON.md
-* Unit testing section in README.md
-* Github actions CI should be present and should work
-* Github actions CI should be properly organized. (build, test, push stages are present, logical structure is correct)
-* Caching is present in GitHub actions
-* CI.md exist and contains best practices for GitHub actions (more is better)
-* The workﬂow status badge is present.
-* Jenkinsfile exists
-* Jenkinsfile is properly organized
-* CI.md contains best practices for Jenkins (more is better)
-* CI.md contains result screenshots for Jenkins
-
-> Some additional points will be provided for implementation of best practices that you find during research and that are not mentioned in this document.
-
-## Bonus
-
-1. Follow steps from the main task for your extra app.
-2. Set up a CI process via any another CI tool.
+2. Follow steps from the main task for your extra app.
+3. Set up a CI process via any another CI tool.
