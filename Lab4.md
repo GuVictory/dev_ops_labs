@@ -43,4 +43,4 @@
 ## Bonus
 
 1. Add several teams to your repository using terraform, provide them different level of access. Apply changes.
-2. Add @safinsaf to a team that has admin rights in your repository (by hands), so I am able to see the settings button and check teams in your repository. (You can verify it on your friends the same way).
+2. Add @safinsaf to a team that has admin rights in your repository using terroform. Add screenshots of team members in github to TF.md
