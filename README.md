@@ -38,6 +38,24 @@ Grading is based on PRs with your solutions to the corresponding branch of this 
 
 ## Grading 
 
+### Points distribution for the course
+
+```
+70 - labs
+30 - final exam
+```
+
+### Grade ranges
+
+```
+[90;100] - A
+[75;90)  - B
+[60;75)  - C
+[0;60)   - D
+```
+
+### Labs grading
+
 Each lab is marked out of 10. All labs have a set of main tasks and a set of extra tasks. 
 
 Completing main tasks correctly will give you 10 points out of 10. Completing extra tasks correctly will give you N (depends on the complexity of extra tasks) additional points. Your points for main and extra tasks will be summed and cut to 10 if you have more than 10. Basically, extra points will allow you to get max points even if some main tasks are not finished correctly, but will not give you more points for the course.
