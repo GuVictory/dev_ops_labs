@@ -27,3 +27,6 @@ Application improvements:
 2. Implement a healthcheck.
 3. Improve logging.
 4. Add any extra logic, but don't forget to cover it with unit tests.
+
+> Monitoring - https://devops.com/metrics-logs-and-traces-the-golden-triangle-of-observability-in-
+monitoring/
