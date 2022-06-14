@@ -27,8 +27,8 @@ docker-compose ﬁle and conﬁg ﬁles to setup the stack.
 * Mounting of volumes is properly applied in `docker-compose.yml`
 * Logging is configured in `docker-compose.yml`, tags are properly set to each container
 * promtail.yml exists
-    * Logs are taken from correct services
     * Logs are taken from correct files
+    * Logs are sent to Loki
     * Logs are parsed using regex / json
 * `LOGGING.md` exists and contains screenshots with your success
 * Best practices in `LOGGING.md`
