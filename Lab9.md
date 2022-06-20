@@ -32,15 +32,16 @@ few manifests for your application.
 8. Create a `service.yml` manifest for your app.
     * Service - https://kubernetes.io/docs/concepts/services-networking/service/
 
-9. Provide those files in the `k8s` folder. Also provide the output of `kubectl get pods,svc command` in
-the report.
+9. Provide those files in the `k8s` folder. Also provide the output of `kubectl get pods,svc` command in
+the report. Provide output of `minikube service --all` command and result from browser. The screenshot for latter should show the same IP as in `minikube service --all`. 
 
 ### List of requirements
 
 * `deployment.yml`
 * `service.yml`
 * output of `kubectl get pods,svc` in README.md in `k8s` folder
-
+* output of `minikube service --all` in README.md in `k8s` folder
+* screenshot from browser that shows the same ip as in latter command.
 
 ## Bonus 
 1. Create `deployment` and `service` manifests for your extra app.
