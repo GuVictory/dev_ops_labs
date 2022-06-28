@@ -17,9 +17,9 @@ In this lab you will figure out how to manage sensitive data such as a password,
     * Create a `secret` object inside.
     * Add `env` field to your `Deployment`. Path that you will need: `spec.template.spec.containers.env.`
 
-    > Helm secrets - https://antonputra.com/helm-3-secrets-tutorial/
+    > Helm secrets - https://www.youtube.com/watch?v=hRSlKRvYe1A
 
-    * Update your helm deployment. Get pods: `kubbectl get po.` Use the name of the pod to provide a proof of your success. Check your secret inside pod, example: `kubbectl exec demo- 5f898f5f4c-2gpnd -- printenv | grep MY_PASS.`
+    * Update your helm deployment (instructions are present in the video). Get pods: `kubbectl get po.` Use the name of the pod to provide a proof of your success. Check your secret inside pod, example: `kubbectl exec demo- 5f898f5f4c-2gpnd -- printenv | grep MY_PASS.`
 
 4. Read about Resources management:
 
