@@ -6,7 +6,7 @@ In this lab you will figure out how to operate k8s cluster monitoring with Prome
 familiar with `Init Containers`.
 
 1. Read about `Kube Prometheus Stack`:
-    * Helm chart with installation guide - https://github.com/prometheus-community/helmcharts/tree/main/charts/kube-prometheus-stack
+    * Helm chart with installation guide - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
     * Explanation of components - https://github.com/prometheus-operator/kube-prometheus#kubeprometheus
 
 2. Create `14.md` file and describe there all components of the stack and their purpose. No copy paste, just the role and how did understand it
@@ -34,7 +34,7 @@ familiar with `Init Containers`.
     4. Provide a proof of your success, for example `kubectl exec pod/demo-0 -- cat /test.html`
 
 ### List of requirements
-* Explain monotoring stacj components.
+* Explain monotoring stack components.
 * Provide answer of `kubectl get po,sts,svc,pvc,cm` in report and explain what does it do
 * Answer all 6 question in point 4 in `14.md`
 * Implement `Init container`
