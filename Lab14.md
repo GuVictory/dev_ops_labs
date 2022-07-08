@@ -25,7 +25,7 @@ familiar with `Init Containers`.
 
 5. Read about `Init containers`:
     * Concept - https://kubernetes.io/docs/concepts/workloads/pods/init-containers/
-    * Tutorial - https://kubernetes.io/docs/tasks/configure-pod-container/configure-podinitialization/#create-a-pod-that-has-an-init-container
+    * Tutorial - https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-initialization/#create-a-pod-that-has-an-init-container
 
 6. Let's use Init container to download any file, like in the tutorial:
     1. Create a new Volume.
