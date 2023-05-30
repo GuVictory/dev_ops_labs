@@ -1,72 +1,57 @@
-# Labs
+# Python Web Application: Current Time in Moscow
 
-## Introduction
+## Description of the project
 
-Welcome to DevOps course labs. All labs are practical and will be built on each other. You will implement simple application, containerize it, implement simple tests, build CI/CD, collect metrics, logs, etc.
+This is a simple Python web application that displays the current time in Moscow. The application is built using Flask, a lightweight web framework for Python. It provides a single route ("/") that, when accessed, returns the current time in Moscow.
 
-## Architecture
+## Instructions
 
-This repository contains master branch with introduction and one branch with instructions for each lab. 
+### Setup
 
-## Rules
+1. **Install Python:** If Python is not already installed on your system, download and install it from the [official Python website](https://www.python.org/) following the provided instructions.
+2. **Install Dependencies:** Open a terminal or command prompt and navigate to the project directory. Run the following command to install the required dependencies:
+    ```shell
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    ```
 
-Each labs requires the participant to pass all previous labs, therefore participants are required **to submit each lab (and get at least 60% of max grade for each lab) to pass the course**.
+### Start the Application
 
-Grading is based on PRs with your solutions to the corresponding branch of this repository. This repository is read-only for all participants, therefore to be able to create pull requests, a participant should fork this repository to his own workspace and solve labs there. It is recommended to build solution of lab N upon solution of lab N-1, so choose workflow in your fork of this repository wisely. Structure of your repository will not affect your grade, only state of your repository from which the PR is created will be checked and graded (state after last commit in your PR on corresponding lab).
+1. **Run the Application:** In the terminal or command prompt, navigate to the project directory. Execute the following command to start the application:
 
-### Recommended workflow
+    ```shell
+    python app.py
+    ```
 
-#### For the first lab
-1. Fork this repository on your workspace
-2. Checkout master branch
-3. Complete lab1 tasks
-4. Push the code to your repository
-5. **UPD.** create new branch (called lab1_submission) from main
-6. **UPD.** Create PR to lab1 branch on this repository from lab1_submission
-7. Submit zip to moodle
-8. Wait for your grade
+    The Flask application will start running.
 
-#### For all other labs
-1. Checkout the commit where you finished the previous lab
-2. Complete tasks of current lab
-3. Push the code to your repository
-4. **UPD.** create new branch (called labN_submission) from main
-5. **UPD.** Create PR to labN branch on this repository from labN_submission
-6. Submit zip to moodle
-7. Wait for your grade
+2. **Access the Application:** Open a web browser and visit http://localhost:5000. You will see the current time in Moscow displayed on the webpage.
 
+### Run Tests
 
-## Grading 
+1. **Execute Tests:** In the terminal or command prompt, navigate to the project directory. Run the following command to execute the tests:
 
-### Points distribution for the course
+    ```shell
+     python tests.py
+    ```
 
-```
-70 - labs
-30 - final exam
-```
+    The test runner will execute the tests and display the results, indicating whether they passed or failed.
 
-### Grade ranges
+### Linting
 
-```
-[90;100] - A
-[75;90)  - B
-[60;75)  - C
-[0;60)   - D
-```
+1. **Flake8:** In the terminal or command prompt, navigate to the project directory. Execute the following command to run Flake8 and check for code style and potential errors:
 
-### Labs grading
+    ```shell
+     flake8
+    ```
 
-Each lab is marked out of 10. All labs have a set of main tasks and a set of extra tasks. 
+    Flake8 will analyze the Python files in the project directory and display any linting errors or warnings.
 
-Completing main tasks correctly will give you 10 points out of 10. Completing extra tasks correctly will give you N (depends on the complexity of extra tasks) additional points. Your points for main and extra tasks will be summed and cut to 10 if you have more than 10. Basically, extra points will allow you to get max points even if some main tasks are not finished correctly, but will not give you more points for the course.
+2. **Pylint:** In the terminal or command prompt, navigate to the project directory. Run the following command to run Pylint and perform a static analysis of the code:
 
-## Deadlines and labs distribution
+    ```shell
+     pylint app.py
+    ```
 
-Participants will be provided 2 labs simultaneously and have 1 week to submit solutions. Moodle will contain presentations and deadlines. 
-
-**UPD.** You are required to submit zip file with your source code to corresponding assignment in moodle. This is required for the university as proof of work.
-
-### Late submission policy
-
-Submitting results after the deadline will result in maximum of 6 points for the corresponding lab. As stated before, all labs must be submitted to pass the course. 
-
+    Pylint will analyze the specified file and provide feedback on any code issues it finds.
